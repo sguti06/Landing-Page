@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>ElToquePerfecto</title>
+</head>
+
+<body>
+
+    <header>
+
+        <!-- INICIO DEL MENU DE NAVEGACION -->
+        <nav class="container-navBar">
+            <ul class="navBar-list">
+                <li>Inicio</li>
+                <li>Quiénes Somos</li>
+                <li><img id="logo" src="./assets/LOGO.png" alt="logo volleyball"></li>
+                <li>Lo que Hacemos</li>
+                <li>Galeria de Imagenes</li>
+            </ul>
+        </nav>
+        <!-- FIN DEL MENU DE NAVEGACION -->
+
+        <!-- Inicio Baner-->
+        <figure class="container-baner">
+            <!-- Imagen del Baner -->
+            <img src="./assets/BANNER.jpg" alt="baner volleyball">
+
+            <!-- Botón de acción -->
+            <button class="btn">CONOCER MÁS</button>
+        </figure>
+        <!-- Fin Baner -->
+    </header>
+
+
+    <main>
+        <!-- contenido del sitio web - separado por secciones -->
+
+        <!-- inicio sección "quienes somos" -->
+         <!-- para agregar clases -->
+        <section class="contentSection">
+            <h2 class="title">Conoce quiénes somos</h2>
+            <article class="container">
+                <img src="./assets/img1.jpg" alt="Nishida Saltando">
+
+                <!-- alt+z (para ajustar el contenido al tamaño de la pantalla)-->
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere rem odio veniam possimus neque nisi quisquam molestiae vitae dolorum, a architecto sed assumenda nesciunt ducimus ex ea, blanditiis distinctio deserunt!</p>
+            </article>
+        </section>
+
+
+        <!-- inicio sección "lo que hacemos" -->
+        <section class="contentSection">
+            <h2 class="title">Conoce lo que hacemos</h2>
+            <article class="container">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia magni et sunt, repellendus recusandae sequi provident modi deleniti, aliquid distinctio quidem. Minus labore deleniti repellat officiis.</p>
+                
+                <!-- crear otra section despues para este video -->
+                 <!-- para contenido de terceros -->
+                <!-- <iframe src="https://www.youtube.com/embed/T08dXv9vZqI?si=RIMQiXHiQXw_Fc_D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+
+                <!-- videos descargados en el programa -->
+                 <video src="./assets/video1.mp4" controls></video>
+            </article>
+        </section>
+
+
+        <!-- inicio sección "galeria de imágenes" -->
+        <section>
+            <!-- el contenedor semantico para contener imagenes es -> "figure" -->
+            <figure class="gallery">
+                <img src="./assets/img2.jpg" alt="volleyball">
+                <img src="./assets/img3.jpeg" alt="volleyball">
+                <img src="./assets/img4.jpeg" alt="volleyball">
+                <img src="./assets/img5.jpeg" alt="volleyball">
+                <img src="./assets/img6.jpeg" alt="volleyball">
+                <img src="./assets/img7.jpeg" alt="volleyball">
+            </figure>
+        </section>
+
+    </main>
+
+    <footer>
+        <!-- pie de página -> informacion de contacto, derechos de autor, redes, etc -->
+        <p>Proyecto realizado por &copy; Santiago Gutiérrez 2024</p>
+        <p>Bootcamp de desarrollo web | Fundamentos de programación</p>
+    </footer>
+</body>
+
+</html>
